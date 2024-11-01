@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<body>
+
+<!-- Navigation -->
+<nav class="w3-bar w3-black">
+    <a href="#intro" class="w3-button w3-bar-item">Introduction</a>
+    <a href="#importance" class="w3-button w3-bar-item">Importance</a>
+    <a href="#ethical hacking" class="w3-button w3-bar-item">Ethical hacking</a>
+    <a href="#tips and tricks" class="w3-button w3-bar-item">Tips and tricks</a>
+  </nav>
+
+  <!-- Slide Show -->
+<section>
+    <img class="mySlides" src="cyse.jpeg" style="width:100%">
+    <img class="mySlides" src="digiprint.jpg" style="width:100%">
+    <img class="mySlides" src="ethhack.jpg" style="width:100%">
+ </section>
+
+  <section class="w3-container w3-center w3-content" style="max-width:600px">
+    <h2 class="w3-wide">Cyber Security</h2>
+    <p class="w3-opacity"><i>Cybersecurity or computer security is the protection associated with computers or networks.</i></p>
+  </section>
+
+  <script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}
+      x[myIndex-1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+    </script>
+
+<h1> Introduction </h1>h1>
+<p> Cybersecurity means protecting data, networks, programs and other information from unauthorized or unattended access, destruction or change. In today’s world, cybersecurity is very important because of some security threats and cyber-attacks. For data protection, many companies develop software. This software protects the data. Cybersecurity is important because not only it helps to secure information but also our system from virus attack. After the U.S.A. and China, India has the highest number of internet users.</p>>
+<h1> Importance</h1>
+<p>Use of computers and smart phones has increased manifold in the past decade. Everything you do today is in some way or the other is dependent on internet or electronic devices. While the innovation of cyber space and internet is the best thing since sliced bread, the devil is in the details.
+   Cyber-attacks are on the rise with the growing use of internet in the technologically driven world. The hackers and cyber criminals are shrewd enough to identify loopholes in your cyber security measures and launch cyber-attacks. Therefore, you should always have the top cyber security measures in place to ensure that you are safe while being online.
+    In this digital era, your data is your most valuable as well as the most vulnerable asset. Your online transactions, your emails, your personal & financial details are all very crucial pieces of information that cyber criminals are looking to exploit.
+    Cyber-crime has spread its roots and now not only businesses but individuals are also under a constant threat of cyber-attacks. Thus, it is high time that individuals should also invest in cyber security along with cyber insurance.
+    Cyber security is important for individuals because:</p>
+
+<h1> Ethical hacking</h1>
+<p>ethical hackers are actual computer hackers. However, they differ from black hat cyber criminals because they are qualified and legally able to hack in specific contexts.Ethical, white hat hackers are perhaps the best cyber security measure against malicious hacking. 
+    There is a high demand across industries and organizations for white hat hackers, especially as more system administrators consider ethical hacking as their top security measure. An ethical hacker utilizes their knowledge and education, ability to think like a hacker, and their willingness to use their skills for good to help organizations. There are many cyber security measures that ethical hackers utilize to help an organization increase their security.
+</p>
+
+<h1>Tips and Tricks</h1>
+<p>1. Clicking Without Thinking Is Reckless
+    2. Use Two-Factor Authentication
+    3. Look Out for Phishing Scams
+    4. Keep Track of Your Digital Footprint
+    5. Keep Up With Updates
+    6. Back-Up Your Data
+</p>
+
+
+<footer class="w3-container w3-padding-64 w3-center w3-black w3-xlarge"></footer>
+    <p class="w3-medium">
+     Developed by- Vani Arya
+    </p>
+</body>
+</html>
